@@ -1,0 +1,22 @@
+{
+  "name": "security-sandbox",
+  "version": "0.0.1",
+  "description": "Playground for TLS, Encryption, and Authentication",
+  "main": "index.js",
+  "scripts": {
+    "test": "echo \"Error: no test specified\" && exit 1"
+  },
+  "repository": {
+    "type": "git",
+    "url": "git+https://github.com/tysongf/security-sandbox.git"
+  },
+  "author": "Tyson G Fritz",
+  "license": "UNLICENSED",
+  "bugs": {
+    "url": "https://github.com/tysongf/security-sandbox/issues"
+  },
+  "homepage": "https://github.com/tysongf/security-sandbox#readme",
+  "dependencies": {
+    "express": "^4.18.1"
+  }
+}
