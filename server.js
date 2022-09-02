@@ -1,12 +1,13 @@
 require('dotenv').config();
 const path = require('path');
 const fs = require('fs');
+const helmet = require('helmet');
 const https = require('https');
 const express = require('express');
 
 const PORT = process.env.PORT || 3000;
 
-const app = express();
+const app = express().use(helmet());
 
 app.get('/secret', (req, res) => {
    return res.send('Your personal secret value is 42');
